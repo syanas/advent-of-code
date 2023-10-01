@@ -1,0 +1,74 @@
+[package]
+name = "advent-of-code"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+json = "*"
+itertools = "0.10"
+peg = "0.8.1"
+regex = "1.9.1"
+serde_json = "1.0.89"
+tuple-map = "0.4.0"
+
+[[bin]]
+name="day01"
+path="day01/main.rs"
+
+[[bin]]
+name="day02"
+path="day02/main.rs"
+
+[[bin]]
+name="day03"
+path="day03/main.rs"
+
+[[bin]]
+name="day04"
+path="day04/main.rs"
+
+[[bin]]
+name="day05"
+path="day05/main.rs"
+
+[[bin]]
+name="day06"
+path="day06/main.rs"
+
+# [[bin]]
+# name="day07"
+# path="day07/main.rs"
+
+[[bin]]
+name="day08"
+path="day08/main.rs"
+
+[[bin]]
+name="day09"
+path="day09/main.rs"
+
+[[bin]]
+name="day10"
+path="day10/main.rs"
+
+[[bin]]
+name="day11"
+path="day11/main.rs"
+
+[[bin]]
+name="day12"
+path="day12/main.rs"
+
+[[bin]]
+name="day13"
+path="day13/main.rs"
+
+[[bin]]
+name="day14"
+path="day14/main.rs"
+
+[[bin]]
+name="day15"
+path="day15/main.rs"
